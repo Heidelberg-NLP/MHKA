@@ -1,1 +1,1 @@
-# SocialCommonsenseReasoning_Multi-Head_Attention
+# Social-Commonsense-Reasoning-Multi-Head-Attention
