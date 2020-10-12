@@ -2,7 +2,7 @@
 
 This directory contains the following parts of the 'Social Commonsense Reasoning Multi-Head Knowledge Attention' experiment. 
 
-![Multi-Head-Knowledge-Attention](model_emnlp.pdf)
+![Multi-Head-Knowledge-Attention](./model_emnlp.pdf)
 
 ## Reference
 
