@@ -3,7 +3,7 @@
 This directory contains the following parts of the 'Social Commonsense Reasoning Multi-Head Knowledge Attention' experiment. 
 
 <p align="center">
-  <img src="model_emnlp.png" alt="MHKA">
+  <img src="model_emlp.png" alt="MHKA">
 </p>
 
 ## Reference
