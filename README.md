@@ -9,7 +9,7 @@ Coming Soon!
 If you make use of the contents of this repository, please cite [the following paper](https://www.aclweb.org/anthology/N19-1368):
 
 ```
-@inproceedings{paul-frank-2019-ranking,
+@inproceedings{paul-frank-2020-scrmhka,
     title = "Social Commonsense Reasoning with Multi-Head Knowledge Attention",
     author = "Paul, Debjit  and
       Frank, Anette",
