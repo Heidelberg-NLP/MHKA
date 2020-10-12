@@ -11,11 +11,10 @@ If you make use of the contents of this repository, please cite [the following p
 ```bib
 @inproceedings{paul-frank-2020-scrmhka,
     title = "Social Commonsense Reasoning with Multi-Head Knowledge Attention",
-    author = "Paul, Debjit  and
-      Frank, Anette",
+    author = "Paul, Debjit  and Frank, Anette",
     booktitle = "Findings of EMNLP",
-    month = nov,
-    year = "2020",
+    month = November,
+    year = 2020,
     publisher = "Association for Computational Linguistics"
 }
 ```
