@@ -15,7 +15,7 @@ If you make use of the contents of this repository, please cite [the following p
 @inproceedings{paul-frank-2020-mhka,
     title = "Social Commonsense Reasoning with Multi-Head Knowledge Attention",
     author = "Paul, Debjit  and Frank, Anette",
-    booktitle = "Findings of EMNLP",
+    booktitle = Findings of EMNLP,
     month = November,
     year = 2020,
     publisher = "Association for Computational Linguistics"
