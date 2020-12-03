@@ -15,6 +15,10 @@
 # limitations under the License.
 """ Finetuning the library models for multiple choice (Bert, Roberta, XLNet)."""
 
+'''
+Much of this code is taken from HuggingFace's repo:
+https://github.com/huggingface/transformers/tree/master/examples
+'''
 from __future__ import absolute_import, division, print_function
 
 import argparse
