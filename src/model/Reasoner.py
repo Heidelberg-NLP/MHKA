@@ -195,7 +195,7 @@ class Attention_Knowledge(nn.Module):
             w = w / math.sqrt(v.size(-1))
         w = nn.Softmax(dim=-1)(w)
         w = self.attn_dropout(w)
-  						#Knowledge Attention Score 
+  						                             #Knowledge Attention Score 
         #f = open("result/attention.txt",'a')
         #f.write(str(w.tolist())+'\n') 
         #f.close()
@@ -261,6 +261,8 @@ class Block(nn.Module):
         #self.ln_3 = nn.LayerNorm(nx, eps=cfg["layer_norm_epsilon"]) 
 
     def forward(self, x, xk, attention_mask=None, head_mask=None):
+        #xk = knowledge encoding
+        #x = context encoding
         attn_outputs = self.attn_1(x, xk, attention_mask=attention_mask, head_mask=head_mask)
         k = attn_outputs[0]
         p = self.ln_1(x + k) ## knowledge_cross_attention
