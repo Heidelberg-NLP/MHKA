@@ -2,7 +2,7 @@
 DATA_BASE_DIR='./'
 #ls ${DATA_BASE_DIR}/*.chunk.* > ${DATA_BASE_DIR}/chunk_files.txt
 
-job_name_base=counterfactual_
+job_name_base=train_
 
 #while read input_file; do
 #echo "$input_file"
