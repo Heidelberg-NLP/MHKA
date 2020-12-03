@@ -1,5 +1,5 @@
 # Social-Commonsense-Reasoning-Multi-Head-Knowledge-Attention
-Paper Link: https://arxiv.org/pdf/2010.05587.pdf
+Paper Link: https://www.aclweb.org/anthology/2020.findings-emnlp.267.pdf
 
 This directory contains the following parts of the 'Social Commonsense Reasoning Multi-Head Knowledge Attention' experiment. 
 
