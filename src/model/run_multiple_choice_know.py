@@ -14,10 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 """ Finetuning the library models for multiple choice (Bert, Roberta, XLNet)."""
-
 '''
-Much of this code is taken from HuggingFace's OpenAI LM Implementation here:
-https://github.com/huggingface/transformers/examples/
+Much of this code is taken from HuggingFace's repo:
+https://github.com/huggingface/transformers/tree/master/examples
 '''
 
 
