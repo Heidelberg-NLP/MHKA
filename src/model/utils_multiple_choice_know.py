@@ -15,6 +15,10 @@
 # limitations under the License.
 """ BERT multiple choice fine-tuning: utilities to work with multiple choice tasks of reading comprehension  """
 
+'''
+Much of this code is taken from HuggingFace's OpenAI LM Implementation here:
+https://github.com/huggingface/transformers/examples/
+'''
 from __future__ import absolute_import, division, print_function
 
 
