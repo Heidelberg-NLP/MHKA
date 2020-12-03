@@ -21,6 +21,16 @@ If you make use of the contents of this repository, please cite [the following p
     publisher = "Association for Computational Linguistics"
 }
 ```
+## Requirements 
+~~~~
+- python3.8+
+- pytorch
+git clone https://github.com/huggingface/transformers
+cd transformers
+pip install .
+pip install -r ./examples/requirements.txt
+
+~~~~
 
 ## Recreating Results
 <p align="center">
