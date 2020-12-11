@@ -1,5 +1,7 @@
 # Social-Commonsense-Reasoning-Multi-Head-Knowledge-Attention
-![](https://img.shields.io/github/last-commit/thu-coai/UNION?color=blue) 
+![](https://img.shields.io/github/last-commit/Heidelberg-NLP/MHKA?color=blue) 
+
+
 Paper Link: https://www.aclweb.org/anthology/2020.findings-emnlp.267.pdf
 
 This directory contains the following parts of the 'Social Commonsense Reasoning Multi-Head Knowledge Attention' experiment. 
