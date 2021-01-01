@@ -1,7 +1,5 @@
 from src.models.gpt2 import (GPT2DoubleHeadsModel, GPT2LMHeadModel)
-from src.models.gpt1 import (OpenAIGPTDoubleHeadsModel)
 from .configuration_gpt2 import GPT2Config 
-from src.models.gpt import (LMModel, load_openai_pretrained_model)
 import torch.nn as nn
 
 
