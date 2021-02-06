@@ -1,3 +1,4 @@
+```bash
 # create a file with tasks to execute
 DATA_BASE_DIR='./'
 DATA_DIR='./data/data_'
@@ -42,5 +43,5 @@ JOB_SCRIPT="PYTHONPATH=. $python_exec run_multiple_choice_know.py \
 # DO NOT change anything here!
 echo "bash ~/cluster_cmd/run_sbatch_gpulong.sh \"${JOB_SCRIPT}\" ${JOB_NAME} ${job_mem} ${job_time} ${job_cpus_per_task} ${gpu_selector}"
 bash ~/cluster_cmd/run_sbatch.sh "${JOB_SCRIPT}" ${JOB_NAME} ${job_mem} ${job_time} ${job_cpus_per_task} ${gpu_selector}
-
+```
 
