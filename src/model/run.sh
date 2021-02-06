@@ -18,7 +18,7 @@ python_exec=/home/mitarb/paul/anaconda3/envs/py38/bin/python
 JOB_NAME=${JOB_NAME}_$(date +%y-%m-%d-%H-%M-%S)
 # CHANGEME - your script for running one single file.
 #JOB_SCRIPT="PYTHONPATH=. $python_exec ./experiment.py ./conf.txt"
-JOB_SCRIPT="PYTHONPATH=. $python_exec run_multiple_choice_without_k.py \
+JOB_SCRIPT="PYTHONPATH=. $python_exec run_multiple_choice_know.py \
 	--model_type=roberta \
 	--task_name=swag \ 
 	--model_name_or_path=roberta-large \
