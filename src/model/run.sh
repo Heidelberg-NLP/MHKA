@@ -1,8 +1,7 @@
 # create a file with tasks to execute
 DATA_BASE_DIR='./'
-#ls ${DATA_BASE_DIR}/*.chunk.* > ${DATA_BASE_DIR}/chunk_files.txt
-DATA_DIR='./data/data_without_k'
-job_name_base=roberta_without
+DATA_DIR='./data/data_'
+job_name_base=roberta_knowledge
 
 #while read input_file; do
 #echo "$input_file"
