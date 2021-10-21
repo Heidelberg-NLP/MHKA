@@ -3,7 +3,7 @@ Thanks to other codebases that were used in writing this code:
 
 Huggingface's original transformers repo: https://github.com/huggingface/transformers/
 
-Please cite in case you use the transformers:
+Please cite the following paper in case you use the transformers:
 ```
 @inproceedings{wolf-etal-2020-transformers,
     title = "Transformers: State-of-the-Art Natural Language Processing",
