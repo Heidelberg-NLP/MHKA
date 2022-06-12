@@ -19,7 +19,7 @@ JOB_NAME=${JOB_NAME}_$(date +%y-%m-%d-%H-%M-%S)
 #JOB_SCRIPT="PYTHONPATH=. $python_exec ./experiment.py ./conf.txt"
 JOB_SCRIPT="PYTHONPATH=. $python_exec run_multiple_choice_know.py \
 	--model_type=roberta \
-	--task_name=swag \ 
+	--task_name=anli \ 
 	--model_name_or_path=roberta-large \
         --save_steps=10000 \
         --do_lower_case \
