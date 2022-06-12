@@ -133,7 +133,7 @@ class DataProcessor(object):
         raise NotImplementedError()
 
 class ANLIProcessor(DataProcessor):
-    """Processor for the SWAG data set."""
+    """Processor for the ANLI data set."""
 
     def get_train_examples(self, data_dir):
         """See base class."""
