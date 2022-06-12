@@ -7,7 +7,7 @@ DATA_DIR='./data/data_'
 python_exec=which python
 JOB_SCRIPT="PYTHONPATH=. $python_exec run_multiple_choice_know.py \
 	--model_type=roberta \
-	--task_name=swag \ 
+	--task_name=anli \ 
 	--model_name_or_path=roberta-large \
         --save_steps=10000 \
         --do_lower_case \
