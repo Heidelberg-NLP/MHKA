@@ -132,7 +132,7 @@ class DataProcessor(object):
         """Gets the list of labels for this data set."""
         raise NotImplementedError()
 
-class SwagProcessor(DataProcessor):
+class ANLIProcessor(DataProcessor):
     """Processor for the SWAG data set."""
 
     def get_train_examples(self, data_dir):
@@ -214,8 +214,6 @@ def convert_examples_to_features(
             tokens_a = tokenizer.tokenize(context)
             tokens_m = tokenizer.tokenize(middle)
             tokens_b = tokenizer.tokenize(ending)
-
-            
              
             knowledge = tokenizer.encode_plus(question, add_special_tokens=False, max_length=know_length,)
             knowledge_ids = knowledge["input_ids"]
@@ -293,12 +291,13 @@ def _truncate_seq_pair(tokens_a, tokens_b, max_length):
 
 
 processors = {
-    "swag": SwagProcessor
+    "anli": ANLIProcessor
 }
 
 
 GLUE_TASKS_NUM_LABELS = {
     "race", 4,
     "swag", 2,
-    "arc", 4
+    "arc", 4,
+    "anli", 2
 }
